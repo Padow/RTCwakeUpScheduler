@@ -5,7 +5,7 @@ from pytz import timezone
 
 week_days = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
 now = datetime.datetime.now(timezone('Europe/Paris'))
-config_file = os.path.abspath(os.path.dirname(sys.argv[0]))+os.sep+"rct_wake_up_config.yaml"
+config_file = os.path.abspath(os.path.dirname(sys.argv[0]))+os.sep+"rtc_wake_up_config.yaml"
 
 with open(config_file, "r") as stream:
 	try:
